@@ -1,11 +1,23 @@
 'use strict';
+// *******************************************************
+// Utilities Package
+// -------------------------------------------------------
+// This file handles all of the intermitten required
+// packages that exist within the utilities package
+// --------------------------------
 
-/**
-* @function createArrayOfLength
-* Returns an array of the length provided as a param
-* @param length - The length of an array that you want
-* @return array
-*/
-export const createArrayOfLength = (length) => {
-    return [...Array(length).keys()];
-};
+// *******************************************
+// Imports
+// -------------------------------------------
+import * as GENERAL_ from './general';
+// --------------------------------
+
+// *******************************************
+// Exports
+// -------------------------------------------
+export const GENERAL = GENERAL_;
+
+default export {
+    GENERAL
+}
+// --------------------------------
