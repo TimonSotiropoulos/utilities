@@ -1,5 +1,5 @@
 {
-  "name": "@username/utilities",
+  "name": "@timoncs/utilities",
   "version": "0.1.0",
   "description": "Basic Functional Utility Functions",
   "main": "index.js",
