@@ -17,7 +17,7 @@ import * as GENERAL_ from './general';
 // -------------------------------------------
 export const GENERAL = GENERAL_;
 
-default export {
+export default {
     GENERAL
 }
 // --------------------------------
