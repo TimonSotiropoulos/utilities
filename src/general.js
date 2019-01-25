@@ -14,6 +14,18 @@
 export const WAIT = ms => new Promise((r, j)=>setTimeout(r, ms));
 
 /**
+* @function asyncForEach
+* allows the use of a for each function to be complete in order
+* loading situations
+* @returns none
+*/
+export const asyncForEach = async (array, callback) => {
+    for (let index = 0; index < array.length; index++) {
+        await callback(array[index], index, array);
+    }
+}
+
+/**
 * @function swapArrayElements
 * Swaps two elements inside an array
 * @param array - Initial Array containing the elements to swap
