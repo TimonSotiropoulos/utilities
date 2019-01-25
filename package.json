@@ -1,6 +1,6 @@
 {
   "name": "@timoncs/utilities",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Basic Functional Utility Functions",
   "main": "lib/index.js",
   "scripts": {
